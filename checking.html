@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>paragraph documents</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <style>
+    label{
+    display: block;
+    margin-bottom: 30px;
+}
+    </style>
 </head>
 <body>
     <header>
@@ -17,7 +23,7 @@
                     Making A Form
                 </h1>
                 <form action="">
-                    <label for="name">
+                    <label for="name" class="">
                        Your name <input type="text" name="" id="name" placeholder="Enter your name">
                     
                     </label>
@@ -29,8 +35,23 @@
                     <label for="phone">
                       Enter Your Number  <input type="number" name="" id="phone" placeholder="Enter your phone number">
                     </label>
-                </form>
+                
+                <fieldset>
+                    <legend>Select one</legend>
+                    <label for="movie">
+                        <input type="radio" name="entertainment" id="movie">movie
+                    </label>
+                    <label for="series">
+                        <input type="radio" name="entertainment" id="series">series
+                    </label>
+                    <label for="drama">
+                        <input type="radio" name="entertainment" id="drama">drama
+                    </label>
+                </fieldset>
+                
+     </form>
         </section>
+   
     </main>
 
     <footer>
