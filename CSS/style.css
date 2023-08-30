@@ -1,0 +1,21 @@
+nav{
+    text-align: center;
+}
+nav > ul{
+    display: flex;
+    
+}
+nav li {
+    list-style: none;
+    padding: 50px 20px; 
+    margin-right: 15px;
+}
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: lavender;
+    background-color: rgba(12, 12, 248, 0.58);
+   padding: 20px;
+}
